@@ -8,7 +8,8 @@ import useFetch from '../hooks/useFetch'
 
 function BlogDetails() {
     const { id } = useParams()
-    const { loading, error, data } = useFetch('http://localhost:1337/blogs/' + id)
+    const { loading, error, data } = useFetch('https://hatem-portfolio.herokuapp.com/blogs/' + id);
+    console.log(data)
 
     if (loading) return <p>Loading...</p>
     if (error) return <p>Error :(</p>
@@ -30,7 +31,7 @@ function BlogDetails() {
             </div>
             
             <div className="flex flex-col items-center pt-16">
-            <img alt="Img" src={`http://localhost:1337${data.images.formats.medium.url}`} />
+            <img alt="Img" src={`https://hatem-portfolio.herokuapp.com${data.images.formats.medium.url}`} />
             </div>
             <article className="py-12 px-4">
                 <h1 className="text-white text-4xl text-center mb-4 font-semibold font-heading font-semibold">

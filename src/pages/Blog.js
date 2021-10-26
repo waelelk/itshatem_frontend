@@ -6,7 +6,7 @@ import useFetch from '../hooks/useFetch'
 
 function Blog() {
 
-    const { loading, error, data } = useFetch('https://hatem-portfolio.herokuapp.com/blogs')
+    const { loading, error, data } = useFetch('https://hatem-portfolio.herokuapp.com/articles')
 
     console.log(data)
 

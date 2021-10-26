@@ -24,7 +24,7 @@ function Blog() {
                             <div>
                                 <Link to={`/blogs/${blog.id}`}>
                                     <div className="w-50 lg:w-96 cursor-pointer overflow-hidden transform lg:hover:scale-105 duration-500">
-                                        <img alt="blog_img" src={`https://hatem-portfolio.herokuapp.com/${blog.image.formats.medium.url}`} />
+                                        <img alt="blog_img" src={`https://hatem-portfolio.herokuapp.com${blog.image.formats.medium.url}`} />
                                         <div className="p-4 bg-gray-100 ">
                                             <p className="inline text-white bg-gray-600 py-1 px-4 rounded-lg text-xs">
                                                 <Moment format="MMM Do YYYY">{data.created_at}</Moment>

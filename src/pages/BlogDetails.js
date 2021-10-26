@@ -8,7 +8,7 @@ import useFetch from '../hooks/useFetch'
 
 function BlogDetails() {
     const { id } = useParams()
-    const { loading, error, data } = useFetch('https://hatem-portfolio.herokuapp.com/blogs/' + id);
+    const { loading, error, data } = useFetch('https://hatem-portfolio.herokuapp.com/articles/' + id);
     console.log(data)
 
     if (loading) return <p>Loading...</p>

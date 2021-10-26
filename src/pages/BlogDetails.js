@@ -31,7 +31,7 @@ function BlogDetails() {
             </div>
             
             <div className="flex flex-col items-center pt-16">
-            <img alt="Img" src={`https://hatem-portfolio.herokuapp.com${data.images.formats.medium.url}`} />
+            <img alt="Img" src={`https://hatem-portfolio.herokuapp.com${data.image.formats.medium.url}`} />
             </div>
             <article className="py-12 px-4">
                 <h1 className="text-white text-4xl text-center mb-4 font-semibold font-heading font-semibold">

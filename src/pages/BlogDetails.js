@@ -8,7 +8,7 @@ import useFetch from '../hooks/useFetch'
 
 function BlogDetails() {
     const { id } = useParams()
-    const { loading, error, data } = useFetch('https://morning-caverns-72229.herokuapp.com/blogs/' + id)
+    const { loading, error, data } = useFetch('https://murmuring-bastion-23285.herokuapp.com/Projects/' + id)
     console.log(data)
 
     if (loading) return <p>Loading...</p>
@@ -31,11 +31,11 @@ function BlogDetails() {
             </div>
             
             <div className="flex flex-col items-center pt-16">
-            <img alt="Img" src={data.Image[0].formats.medium.url} />
+            <img alt="Img" src={data.image[0].formats.medium.url} />
             </div>
             <article className="py-12 px-4">
                 <h1 className="text-white text-4xl text-center mb-4 font-semibold font-heading font-semibold">
-                    {data.Title}
+                    {data.title}
                 </h1>
                 <p className="mb-4 text-white text-center ">
                      <span>Publish date: </span>
@@ -45,7 +45,7 @@ function BlogDetails() {
                 </p>
                 <div className="max-w-3xl mx-auto">
                     <p className="mb-4 text-white leading-relaxed">
-                        <ReactMarkdown>{data.Content}</ReactMarkdown>
+                        <ReactMarkdown>{data.content}</ReactMarkdown>
                     </p>
                 </div>
             </article>

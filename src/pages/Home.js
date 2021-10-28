@@ -1,5 +1,4 @@
 import React from 'react'
-
 import Education from '../components/Education'
 import Working from '../components/Working' 
 import Blog from './Blog'

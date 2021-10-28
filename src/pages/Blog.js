@@ -5,7 +5,7 @@ import Moment from 'react-moment';
 import useFetch from '../hooks/useFetch'
 
 function Blog() {
-    const { loading, error, data } = useFetch('https://morning-caverns-72229.herokuapp.com/blogs')
+    const { loading, error, data } = useFetch('https://murmuring-bastion-23285.herokuapp.com/Projects')
     console.log(data)
 
     if (loading) return <p>Loading...</p>
@@ -23,16 +23,16 @@ function Blog() {
                             <div>
                                 <Link to={`/blogs/${blog.id}`}>
                                     <div className="w-50 lg:w-96 cursor-pointer overflow-hidden transform lg:hover:scale-105 duration-500">
-                                        <img alt="blog_img" src={blog.Image[0].formats.medium.url} />
+                                        <img alt="blog_img" src={blog.image[0].formats.medium.url} />
                                         <div className="p-4 bg-gray-100 ">
                                             <p className="inline text-white bg-gray-600 py-1 px-4 rounded-lg text-xs">
                                                 <Moment format="MMM Do YYYY">{blog.created_at}</Moment>
                                             </p>
                                             <h3 className="font-regular text-base lg:text-xl md:text-xl tracking-tight mt-3" id="title">
-                                                {blog.Title}
+                                                {blog.title}
                                             </h3>
                                             <p className="text-sm mt-1">
-                                                {blog.Desc.substring(0, 70)}....
+                                                {blog.desc.substring(0, 70)}....
                                             </p>
                                         </div>
                                     </div>

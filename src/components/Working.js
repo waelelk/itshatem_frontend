@@ -7,7 +7,7 @@ function Work() {
                 <div class="container lg:flex flex-col items-start md:flex-row ">
                     <div class="flex flex-col w-full lg:sticky md:top-36 lg:w-2/3">
                         <h2 class="lg:text-xl md:text-4xl font-regular text-gray-200">My Current Position</h2>
-                        <h1 class="text-3xl lg:text-6xl md:text-4xl font-semibold text-white pt-3">Acoustic Engineer </h1>
+                        <h1 class="text-3xl lg:text-6xl md:text-4xl font-semibold text-white pt-3">Acoustic specialist</h1>
                         <h2 class="lg:text-xl md:text-4xl font-regular text-gray-200 pt-3">
                             Wug Accoustics - Selangor, Malaysia
                         </h2>

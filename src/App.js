@@ -7,6 +7,7 @@ import Home from './pages/Home'
 import Blog from './pages/Blog';
 import BlogDetails from './pages/BlogDetails';
 import Footer from './components/Footer';
+import Thanks from "./components/Thanks";
 
 
 function App() {
@@ -40,6 +41,9 @@ function App() {
                 </Route>
                 <Route path="/blogs/:id">
                   <BlogDetails />
+                </Route>
+                <Route path="/thanks">
+                  <Thanks />
                 </Route>
               </Switch>
             </div>

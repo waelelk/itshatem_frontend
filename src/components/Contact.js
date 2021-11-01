@@ -19,7 +19,7 @@ function Contact() {
                         <input type="text" id="message" name="message" placeholder="Hey Hatem, I would like to..." className="flex-grow bg-transparent border-b-4 border-gray-900 p-6 outline-none text-white focus:border-white" />
                     </div>
                     <input type="hidden" name="_captcha" value="false" />
-                    <input type="hidden" name="_next" value="https://itshatem.tech/Thanks.js" />
+                    <input type="hidden" name="_next" value="https://itshatem.tech/thanks" />
                     <div className="text-right">
                         <button className="bg-black text-white hover:bg-white hover:text-black py-4 px-8">Send</button>
                     </div>

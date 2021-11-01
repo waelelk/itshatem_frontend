@@ -1,5 +1,5 @@
 .sliding-text-container {
-    height: 100vh;
+    height: 82vh;
     width: 99vw;
     position: relative;
     text-align: center; 
@@ -29,7 +29,7 @@
 
 .small-text {
     font-size: 65px;
-    color: #7a7a7a;
+    color: #ffffff;
     font-weight: 600;
     letter-spacing: 15px;
     position: absolute;

@@ -8,7 +8,7 @@ import useFetch from '../hooks/useFetch'
 
 function BlogDetails() {
     const { id } = useParams()
-    const { loading, error, data } = useFetch('https://murmuring-bastion-23285.herokuapp.com/Projects/' + id)
+    const { loading, error, data } = useFetch('https://murmuring-bastion-23285.herokuapp.com/blogs/' + id)
     console.log(data)
 
     if (loading) return <p>Loading...</p>
@@ -16,7 +16,7 @@ function BlogDetails() {
     return (
         <div>
             <div className=" p-6">
-                <Link to={`/`}>
+                <Link to={`/blog`}>
                     <div class="text-white">
                         <h3 class="text-xl mb-3 font-base inline-flex">
                             <svg class="mr-2 text-white" width="24" height="30" viewBox="0 0 24 24" fill="none"

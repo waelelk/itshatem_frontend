@@ -10,7 +10,7 @@ function Nav() {
                 
             </h1>
             <Link to={`/blog`} id="plus" className="cursor-pointer font-bold">
-            <h1 className="text-white text-2xl hidden md:block">
+            <h1 className="text-white text-xl lg:text-2xl md:text-2xl">
                 + INFORMATION  
             </h1>
             </Link>

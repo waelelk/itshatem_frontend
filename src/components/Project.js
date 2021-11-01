@@ -13,7 +13,7 @@ function Project() {
     if (error) return <p>Error :(</p>
 
     return (
-        <div className="p-24">
+        <div className="p-10 lg:p-24 md:p-24 md:px-28">
             {data.map(project => (
                 <section className="p py-10">
                     <div className="mx-auto flex md:flex-row flex-col items-center jobcard">

@@ -1,6 +1,5 @@
 import React from 'react'
 
-import Nav from "../components/Nav";
 import Education from '../components/Education'
 import Working from '../components/Working'
 import Project from '../components/Project';
@@ -11,7 +10,6 @@ import './Home.css'
 function Home() {
     return (
         <>
-            <Nav />
             <div className="sliding-text-container">
                 <div className="big-text">
                     i. DESIGN. i. DEVELOP. i. BUILD.

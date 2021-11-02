@@ -2,7 +2,7 @@ import React, {useState, useEffect} from "react";
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import PuffLoader from "react-spinners/PuffLoader";
 
-
+import Nav from './components/Nav'
 import Home from './pages/Home'
 import Blog from './pages/Blog';
 import BlogDetails from './pages/BlogDetails';
@@ -31,6 +31,7 @@ function App() {
               </div>       
           :
           <Router>
+            <Nav />
             <div>
               <Switch>
                 <Route exact path="/">

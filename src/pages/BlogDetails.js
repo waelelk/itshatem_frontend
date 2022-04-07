@@ -8,10 +8,9 @@ import useFetch from '../hooks/useFetch'
 function BlogDetails() {
     const { id } = useParams()
     const { loading, error, data } = useFetch('https://murmuring-bastion-23285.herokuapp.com/blogs/' + id)
-    console.log(data)
 
-    if (loading) return <p>Loading...</p>
-    if (error) return <p>Error :(</p>
+    if (loading) return <p className="text-white">Loading...</p>
+    if (error) return <p className="text-white">Error :(</p>
     return (
         <div>
             <div className="flex flex-col items-center pt-16">

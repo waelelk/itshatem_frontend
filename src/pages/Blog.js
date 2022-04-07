@@ -8,15 +8,14 @@ function Blog() {
     const { loading, error, data } = useFetch('https://murmuring-bastion-23285.herokuapp.com/blogs')
     console.log(data)
 
-    if (loading) return <p>Loading...</p>
-    if (error) return <p>Error :(</p>
-
-
+    if (loading) return <p className="text-white">Loading...</p>
+    if (error) return <p className="text-white">Error :(</p>
 
     return ( 
         <>
             <div className="p-10 lg:p-24 md:p-24 md:px-28">
-                <div className="flex flex-wrap lg:p-24">
+            <h1 className="text-white text-3xl lg:text-6xl md:text-4xl mb-6 font-semibold">Let's learn</h1>
+                <div className="flex flex-wrap">
                     {data.map(blog => (
                         <div className="lg:pr-6 pt-6" key={blog.id}>
                             <div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactMarkdown from 'react-markdown'
-
+import Moment from 'react-moment'
 import useFetch from '../hooks/useFetch'
 
 
@@ -9,40 +9,36 @@ function Project() {
     const { loading, error, data } = useFetch('https://murmuring-bastion-23285.herokuapp.com/Projects')
     console.log(data)
 
-    if (loading) return <p>Loading...</p>
-    if (error) return <p>Error :(</p>
+    if (loading) return <p className="text-white">Loading...</p>
+    if (error) return <p className="text-white">Error :(</p>
 
     return (
-        <div className="p-10 lg:p-24 md:p-24 md:px-28">
-            {data.map(project => (
-                <section className="p py-10">
-                    <div className="mx-auto flex md:flex-row flex-col items-center jobcard">
-                        <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center">
-                            <figure className="visible">
-                                <div className="">
-                                    <div className="px-2 sm:px-6 text-white">
-                                        <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium">
+        <div className="p-10 md:p-24 md:px-28">
+            <h1 className="text-white text-3xl lg:text-6xl md:text-4xl mb-6 font-semibold">Projects</h1>
+            <div className="grid grid-cols-4">
+                {data.map(project => (
+                    <div className="lg:pr-6 pt-6" key={project.id}>
+                        <div>
+                            {`/blogs/${project.id}`}
+                                <div className="text-white w-50 lg:w-96 overflow-hidden   ">
+                                    <img alt="blog_img" src={project.image[0].formats.medium.url} />
+                                    <div className="p-4 ">
+                                        <p className="inline text-white bg-gray-600 py-1 px-4 rounded-lg text-xs">
+                                            <Moment format="MMM Do YYYY">{project.created_at}</Moment>
+                                        </p>
+                                        <h3 className="text-white font-regular text-base lg:text-xl md:text-xl tracking-tight mt-3" id="title">
                                             {project.title}
-                                        </h1>
-                                        <ReactMarkdown className="text-base pb-6">
-                                            {project.content}
-                                        </ReactMarkdown>
-                                        <ReactMarkdown className="title-font sm:text-2xl text-xl mb-4 font-medium">
+                                        </h3>                                              
+                                        <ReactMarkdown className="title-font pt-4 sm:text-2xl text-xl mb-4 font-medium">
                                             {project.desc}
                                         </ReactMarkdown>
                                     </div>
-                                </div>
-                            </figure>
+                                </div>                                  
                         </div>
-                        <div className="lg:w-7/12 opacity-60 ">
-                            <img className="object-cover object-center rounded" alt="Project"
-                                src={project.image[0].formats.medium.url} />
-                        </div>
-                    </div>      
-                </section>
-                 ))}
-            
-        </div>
+                    </div>
+                ))}
+            </div>
+        </div>   
     )
 }
 

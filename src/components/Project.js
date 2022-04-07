@@ -15,12 +15,12 @@ function Project() {
     return (
         <div className="p-10 md:p-24 md:px-28">
             <h1 className="text-white text-3xl lg:text-6xl md:text-4xl mb-6 font-semibold">Projects</h1>
-            <div className="grid grid-cols-4">
+            <div className="grid grid-cols-2 lg:grid-cols-4">
                 {data.map(project => (
                     <div className="lg:pr-6 pt-6" key={project.id}>
                         <div>
                             {`/blogs/${project.id}`}
-                                <div className="text-white w-50 lg:w-96 overflow-hidden   ">
+                                <div className="p-2 text-white w-50 lg:w-96 overflow-hidden">
                                     <img alt="blog_img" src={project.image[0].formats.medium.url} />
                                     <div className="p-4 ">
                                         <p className="inline text-white bg-gray-600 py-1 px-4 rounded-lg text-xs">

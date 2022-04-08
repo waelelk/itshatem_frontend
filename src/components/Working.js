@@ -58,6 +58,27 @@ function Work() {
                                         </h3>
                                     </div>
                                 </div>
+                                <div class="mb-8 lg:flex lg:justify-between lg:flex-row-reverse ">
+                                    <div class="order-1 lg:w-5/12"></div>
+                                    <div class="order-1 py-4">
+                                        <p class="mb-3 text-xl lg:text-xl md:text-2xl font-regular text-gray-400"> 2021-present</p>
+                                        <h2 class="mb-3 text-2xl lg:text-xl md:text-4xl font-medium text-white tracking-loose">
+                                            Cheif Design Officer</h2>
+                                        <h3 class="mb-3 text-xl lg:text-xl md:text-3xl font-regular text-gray-400">
+                                            Mozaic Gourmet - Kuala Lumpur, Malaysia
+                                        </h3>
+                                    </div>
+                                </div>
+                                <div class="mb-8 flex lg:justify-between">
+                                    <div class="order-1"></div>
+                                    <div class="order-1 py-4">
+                                        <p class="mb-3 text-xl lg:text-xl md:text-2xl font-regular text-gray-400">2022-present</p>
+                                        <h2 class="mb-3 text-2xl lg:text-xl md:text-4xl font-medium text-white tracking-loose">Wordpress Developer</h2>
+                                        <h3 class="mb-3 text-xl lg:text-xl md:text-3xl font-regular text-gray-400">
+                                            Momentum Tutoring - Auckland, New Zeland
+                                        </h3>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

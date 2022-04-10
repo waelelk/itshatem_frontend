@@ -7,9 +7,9 @@ function Work() {
                 <div class="container lg:flex flex-col items-start md:flex-row ">
                     <div class="flex flex-col w-full lg:sticky md:top-36 lg:w-2/3">
                         <h2 class="lg:text-xl md:text-4xl font-regular text-gray-200">My Current Position</h2>
-                        <h1 class="text-3xl lg:text-6xl md:text-4xl font-semibold text-white pt-3">Acoustic specialist</h1>
+                        <h1 class="text-3xl lg:text-4xl md:text-4xl font-semibold text-white pt-3">Cheif Design Officer</h1>
                         <h2 class="lg:text-xl md:text-4xl font-regular text-gray-200 pt-3">
-                            Wug Accoustics - Selangor, Malaysia
+                            Mozaic Gourmet - Kuala Lumpur, Malaysia
                         </h2>
                     </div>
                     <div class="lg:w-2/3 pt-10 lg:pt-16">
@@ -61,11 +61,11 @@ function Work() {
                                 <div class="mb-8 lg:flex lg:justify-between lg:flex-row-reverse ">
                                     <div class="order-1 lg:w-5/12"></div>
                                     <div class="order-1 py-4">
-                                        <p class="mb-3 text-xl lg:text-xl md:text-2xl font-regular text-gray-400"> 2021-present</p>
+                                        <p class="mb-3 text-xl lg:text-xl md:text-2xl font-regular text-gray-400"> 2020-2022</p>
                                         <h2 class="mb-3 text-2xl lg:text-xl md:text-4xl font-medium text-white tracking-loose">
-                                            Cheif Design Officer</h2>
+                                            Acoustic specialist</h2>
                                         <h3 class="mb-3 text-xl lg:text-xl md:text-3xl font-regular text-gray-400">
-                                            Mozaic Gourmet - Kuala Lumpur, Malaysia
+                                            Wug Accoustics - Selangor, Malaysia
                                         </h3>
                                     </div>
                                 </div>

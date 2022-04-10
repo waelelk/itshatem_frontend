@@ -25,16 +25,16 @@ function Blog() {
                         <div className="lg:pr-6 pt-6" key={blog.id}>
                             <div>
                                 <Link to={`/blogs/${blog.id}`}>
-                                    <div className="text-white w-50 lg:w-72 cursor-pointer overflow-hidden transform lg:hover:scale-105 duration-500">
-                                        <img alt="blog_img" src={blog.image[0].formats.small.url} />
+                                    <div className=" cursor-pointer overflow-hidden transform lg:hover:scale-105 duration-500">
+                                        <img alt="blog_img" className="object-cover w-50 lg:w-74 h-52" src={blog.image[0].formats.small.url} />
                                         <div className="p-4 ">
                                             <p className="inline text-white bg-gray-600 py-1 px-4 rounded-lg text-xs">
                                                 <Moment format="MMM Do YYYY">{blog.created_at}</Moment>
                                             </p>
-                                            <h3 className="text-white font-regular text-base lg:text-xl md:text-xl tracking-tight mt-3" id="title">
+                                            <h3 className="text-white lg:text-xl md:text-4xl font-regular md:text-xl tracking-tight mt-3" id="title">
                                                 {blog.title}
                                             </h3>
-                                            <p className="text-slate-400 text-sm mt-1">
+                                            <p className="text-slate-400 text-sm mt-2">
                                                 {blog.desc.substring(0, 50)}....
                                             </p>
                                         </div>

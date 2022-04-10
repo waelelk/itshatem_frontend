@@ -32,7 +32,7 @@ function BlogDetails() {
                     </Moment>
                 </p>
                 <div className="max-w-3xl mx-auto">
-                    <p className="mb-4 text-white leading-relaxed">
+                    <p className="mb-4 text-white leading-relaxed ">
                         <ReactMarkdown>{data.content}</ReactMarkdown>
                     </p>
                 </div>

@@ -30,14 +30,14 @@
 
 @media only screen and (max-width: 600px) {
     .sliding-text-container{
-        height: 80vh;
+        padding: 120px 0 60px 0;
     }
-    .big-text{
-        font-size: 80px;
+    .small-text .title-lines{
+        font-size: 11vw;
+        margin-bottom: -2vw;
     }
-    .small-text{
-        font-size: 20px;
-        letter-spacing: 2px;
+    .small-text .title-lines:nth-of-type(1) {
+        text-align: end;
     }
 }
 

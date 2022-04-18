@@ -1,10 +1,17 @@
-import React from 'react'
+import React, {useEffect} from 'react'
+
+import Aos from "aos"
+import "aos/dist/aos.css"
+
 import ReactMarkdown from 'react-markdown'
 import Moment from 'react-moment'
 import useFetch from '../hooks/useFetch'
 
 
 function Project() {
+    useEffect(() => {
+        Aos.init({ duration: 2000 });
+    }, [])
 
     const { loading, error, data } = useFetch('https://murmuring-bastion-23285.herokuapp.com/Projects')
     console.log(data)
@@ -21,9 +28,9 @@ function Project() {
     if (error) return <p className="text-white">Error :(</p>
 
     return (
-        <div className="p-10 md:p-24 md:px-28">
-            <h1 className="text-white text-3xl lg:text-6xl md:text-4xl mb-6 font-semibold">Projects</h1>
-            <div className="grid grid-cols-1 lg:grid-cols-4">
+        <div className="lg:pb-72 p-10 px-10 md:p-24 md:px-28">
+            <h1 data-aos="fade-up" className="text-white text-3xl lg:text-6xl md:text-4xl mb-6 font-semibold">Projects</h1>
+            <div data-aos="fade-up" className="grid grid-cols-1 lg:grid-cols-4">
                 {data.map(project => (
                     <div className="lg:pr-6 pt-6" key={project.id}>
                         <div>

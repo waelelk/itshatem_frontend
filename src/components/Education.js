@@ -1,10 +1,16 @@
-import React from 'react'
+import React, {useEffect} from 'react'
+
+import Aos from "aos"
+import "aos/dist/aos.css"
 
 function Education() {
+    useEffect(() => {
+        Aos.init({ duration: 2000 });
+    }, [])
     return (
-        <section class="p-10 lg:p-24 md:p-24 md:px-28">
-            <h1 class="text-white text-3xl lg:text-6xl md:text-4xl mb-6 font-semibold">Education</h1>
-            <div class="container mx-auto">
+        <section class="lg:pb-72 p-10 px-10 md:p-24 md:px-28">
+            <h1 data-aos="fade-up" class="text-white text-3xl lg:text-6xl md:text-4xl mb-6 font-semibold">Education</h1>
+            <div data-aos="fade-up" class="container mx-auto">
                     <div class="pb-8 md:pt-10 flex-nowrap lg:flex">
                         <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
                             <h2 class="text-white text-2xl lg:text-3xl md:text-2xl font-medium">HIGH-SCHOOL</h2>

@@ -5,16 +5,16 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: clip;
-    padding: 20px 0 60px 0;
+    padding-bottom: 60px;
 }
 
 
 .small-text .title-lines{
-    font-size: 11vw;
+    font-size: 10vw;
     color: #ffffff;
-    margin-bottom: -6.5vw;
+    margin-bottom: -6vw;
     padding: 0% 5%;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
 }
 
 

@@ -1,10 +1,16 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import { Link } from 'react-router-dom'
 import Moment from 'react-moment';
 
 import useFetch from '../hooks/useFetch'
 
+import Aos from "aos"
+import "aos/dist/aos.css"
+
 function Blog() {
+    useEffect(() => {
+        Aos.init({ duration: 1000 });
+    }, [])
     const { loading, error, data } = useFetch('https://murmuring-bastion-23285.herokuapp.com/blogs')
     console.log(data)
 
@@ -19,8 +25,8 @@ function Blog() {
     return ( 
         <>
             <div className="p-10 lg:p-24 md:p-24 md:px-28">
-            <h1 className="text-white text-3xl lg:text-6xl md:text-4xl mb-6 font-semibold">Let's learn</h1>
-                <div className="grid grid-cols-1 lg:grid-cols-4">
+            <h1 data-aos="fade-up" className="text-white text-3xl lg:text-6xl md:text-4xl mb-6 font-semibold">Let's learn</h1>
+                <div data-aos="fade-up" className="grid grid-cols-1 lg:grid-cols-4">
                     {data.map(blog => (
                         <div className="lg:pr-6 pt-6" key={blog.id}>
                             <div>

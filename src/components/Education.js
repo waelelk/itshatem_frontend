@@ -8,7 +8,7 @@ function Education() {
         Aos.init({ duration: 2000 });
     }, [])
     return (
-        <section class="lg:pb-72 p-10 px-10 md:p-24 md:px-28">
+        <section class="lg:pb-44 p-10 px-10 md:p-24 md:px-28">
             <h1 data-aos="fade-up" class="text-white text-3xl lg:text-6xl md:text-4xl mb-6 font-semibold">Education</h1>
             <div data-aos="fade-up" class="container mx-auto">
                     <div class="pb-8 md:pt-10 flex-nowrap lg:flex">

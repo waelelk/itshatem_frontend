@@ -48,15 +48,15 @@ function Home() {
                     </p>
                 </div>
             </div>
-            <div className='lg:py-72 p-10'>
-                <div data-aos="fade-up" className='text-gray-300 lg:pb-40 pb-10 lg:text-8xl text-5xl text-white text-center'>
+            <div className='lg:py-44 p-10'>
+                <div data-aos="fade-up" className='text-gray-300 font-medium lg:pb-32 pb-10 lg:text-8xl text-5xl text-white text-center'>
                     <p>WHO AM I?</p>
                 </div>  
                 <div data-aos="fade-up" className='lg:px-20 p-0 text-white'>
                     <p className='text-gray-300 lg:text-6xl text-2xl pb-10'>
-                        HEY I'AM HATEM
+                        HEY I'M HATEM
                      </p>
-                    <p className='lg:text-5xl text-xl leading-relaxed'> 27 years old, graduated from computer science majored in <span className='text-red-200 line-through'> Artificial Intelligence </span>, where I picked up numerous skills. Meanwhile,I entered as a web designer and gradually started doing development as well. I’ve had experiences in using multiple programming languages and frameworks to achieve the goal.</p>
+                    <p className='lg:text-5xl text-xl leading-loose font-extralight'> 27 years old, graduated from computer science majored in <span className='text-red-200 line-through'> Artificial Intelligence </span>, where I picked up numerous skills. Meanwhile,I entered as a web designer and gradually started doing development as well. I’ve had experiences in using multiple programming languages and frameworks to achieve the goal.</p>
                 </div>
             </div>
             <Education />      

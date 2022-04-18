@@ -9,7 +9,7 @@ function Work() {
     }, [])
     return (
         <section>
-            <div class="lg:pb-72 p-10 px-10 lg:p-24 md:p-24 md:px-28">
+            <div class="lg:pb-44 p-10 px-10 lg:p-24 md:p-24 md:px-28">
                 <div class="container lg:flex flex-col items-start md:flex-row ">
                     <div data-aos="fade-up" class="flex flex-col w-full lg:sticky md:top-36 lg:w-2/3">
                         <h2 class="lg:text-xl md:text-4xl font-regular text-gray-200">My Current Position</h2>

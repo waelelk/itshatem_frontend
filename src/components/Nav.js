@@ -15,7 +15,7 @@ function Nav() {
         <div>
             <div data-aos="fade-down" className="flex justify-between mt-10 mx-10">
                 <Link to={`/`} >
-                <img src="/Images/Hatem.png" alt="Logo" className="w-10 h-6 lg:w-16 lg:h-10" />
+                <img src="/Hatem.png" alt="Logo" className="w-10 h-6 lg:w-16 lg:h-10" />
                 </Link>
                 <Link to={`/blog`} id="plus" className="cursor-pointer font-bold">
                 <h1 className="text-white text-base lg:text-2xl md:text-2xl">

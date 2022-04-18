@@ -28,7 +28,7 @@ function Project() {
     if (error) return <p className="text-white">Error :(</p>
 
     return (
-        <div className="lg:pb-72 p-10 px-10 md:p-24 md:px-28">
+        <div className="lg:pb-44 p-10 px-10 md:p-24 md:px-28">
             <h1 data-aos="fade-up" className="text-white text-3xl lg:text-6xl md:text-4xl mb-6 font-semibold">Projects</h1>
             <div data-aos="fade-up" className="grid grid-cols-1 lg:grid-cols-4">
                 {data.map(project => (

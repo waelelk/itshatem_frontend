@@ -13,7 +13,7 @@ function Nav() {
     return (
         <>
         <div>
-            <div data-aos="fade-down" className="flex justify-between mt-10 mx-10">
+            <div data-aos="fade-down" className="sticky flex justify-between mt-10 mx-10">
                 <Link to={`/`} >
                 <img src="/Hatem.png" alt="Logo" className="w-10 h-6 lg:w-16 lg:h-10" />
                 </Link>

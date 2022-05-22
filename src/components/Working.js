@@ -79,7 +79,7 @@ function Work() {
                                     <div class="order-1"></div>
                                     <div class="order-1 py-4">
                                         <p class="mb-3 text-xl lg:text-xl md:text-2xl font-regular text-gray-400">2022-present</p>
-                                        <h2 class="mb-3 text-2xl lg:text-xl md:text-4xl font-medium text-white tracking-loose">web Developer</h2>
+                                        <h2 class="mb-3 text-2xl lg:text-xl md:text-4xl font-medium text-white tracking-loose">Web Developer</h2>
                                         <h3 class="mb-3 text-xl lg:text-xl md:text-3xl font-regular text-gray-400">
                                             Momentum Tutoring - Auckland, New Zeland
                                         </h3>

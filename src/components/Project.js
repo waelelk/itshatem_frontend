@@ -36,7 +36,7 @@ function Project() {
                         <div>
                             {`/blogs/${project.id}`}
                                 <div className="p-2 text-white overflow-hidden">
-                                    <img alt="blog_img" className="object-cover w-50 lg:w-74 h-52" src={project.image[0].formats.medium.url} />
+                                    <img alt="blog_img" className="object-cover w-50 lg:w-96 h-40" src={project.image[0].formats.medium.url} />
                                     <div className="p-4">
                                         <p className="inline text-white bg-gray-600 py-1 px-4 rounded-lg text-xs">
                                             <Moment format="MMM Do YYYY">{project.created_at}</Moment>

@@ -32,7 +32,7 @@ function Blog() {
                             <div>
                                 <Link to={`/blogs/${blog.id}`}>
                                     <div className=" cursor-pointer overflow-hidden transform lg:hover:scale-105 duration-500">
-                                        <img alt="blog_img" className="object-cover w-50 lg:w-74 h-52" src={blog.image[0].formats.small.url} />
+                                        <img alt="blog_img" className="object-cover w-50 lg:w-96 h-40" src={blog.image[0].formats.small.url} />
                                         <div className="p-4 ">
                                             <p className="inline text-white bg-gray-600 py-1 px-4 rounded-lg text-xs">
                                                 <Moment format="MMM Do YYYY">{blog.created_at}</Moment>

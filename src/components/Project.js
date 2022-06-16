@@ -30,11 +30,11 @@ function Project() {
     return (
         <section class="lg:pb-44 p-10 px-10 md:p-24 md:px-28">
             <h1 data-aos="fade-up" className="text-white text-3xl lg:text-6xl md:text-4xl mb-6 font-semibold">Projects</h1>
-            <div className='grid grid-cols-3 gap-4'>
+            <div className='grid grid-cols-2 lg:grid-cols-3 gap-4'>
                 {data.map(project => (
                 <div data-aos="fade-up" class="container mx-auto">
                     <div className="lg:pr-6 pt-6" key={project.id}>
-                        <div class="h-full rounded-xl bg-closeblack overflow-hidden">
+                        <div class="h-full lg:rounded-xl bg-closeblack overflow-hidden">
                             <img alt="blog_img" className="lg:h-60 md:h-36 w-full object-cover" 
                             src={project.image[0].formats.medium.url} />
                             <div class="p-6">

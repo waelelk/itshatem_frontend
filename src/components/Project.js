@@ -28,32 +28,37 @@ function Project() {
     if (error) return <p className="text-white">Error :(</p>
 
     return (
-        <div className="lg:pb-44 p-10 px-10 md:p-24 md:px-28">
+        <section class="lg:pb-44 p-10 px-10 md:p-24 md:px-28">
             <h1 data-aos="fade-up" className="text-white text-3xl lg:text-6xl md:text-4xl mb-6 font-semibold">Projects</h1>
-            <div data-aos="fade-up" className="grid grid-cols-1 lg:grid-cols-4">
+            <div className='grid grid-cols-3 gap-4'>
                 {data.map(project => (
+                <div data-aos="fade-up" class="container mx-auto">
                     <div className="lg:pr-6 pt-6" key={project.id}>
-                        <div>
-                            {`/blogs/${project.id}`}
-                                <div className="p-2 text-white overflow-hidden">
-                                    <img alt="blog_img" className="object-cover w-96 lg:w-96 h-40" src={project.image[0].formats.medium.url} />
-                                    <div className="p-4">
-                                        <p className="inline text-white bg-gray-600 py-1 px-4 rounded-lg text-xs">
-                                            <Moment format="MMM Do YYYY">{project.created_at}</Moment>
-                                        </p>
-                                        <h3 className="text-white lg:text-xl md:text-4xl font-regular md:text-xl tracking-tight mt-3" id="title">
-                                            {project.title}
-                                        </h3>                                              
-                                        <ReactMarkdown className="title-font pt-4 lg:text-xl md:text-4xl font-regular mb-4 font-medium">
+                        <div class="h-full rounded-xl bg-closeblack overflow-hidden">
+                            <img alt="blog_img" className="lg:h-60 md:h-36 w-full object-cover" 
+                            src={project.image[0].formats.medium.url} />
+                            <div class="p-6">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                                    <Moment format="MMM Do YYYY">{project.created_at}</Moment>
+                                </h2>
+                                    <h1 class="title-font text-lg font-medium text-white mb-3">
+                                        {project.title}
+                                    </h1>
+                                <div>
+                                    <button class="text-gray-400">
+                                        <ReactMarkdown>
                                             {project.desc}
-                                        </ReactMarkdown>
-                                    </div>
-                                </div>                                  
-                        </div>
-                    </div>
+                                        </ReactMarkdown> 
+                                    </button>
+                                </div>
+                            </div>
+                        </div>                                  
+                     </div>
+                </div>
                 ))}
             </div>
-        </div>   
+            
+        </section>
     )
 }
 

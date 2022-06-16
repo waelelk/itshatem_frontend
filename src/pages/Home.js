@@ -48,6 +48,34 @@ function Home() {
                     </p>
                 </div>
             </div>
+            {/* <div class="container m-auto lg:pt-28 px-6 space-y-8 md:px-12">
+                <div class="grid grid-cols-4 sm:grid-cols-3 md:grid-cols-8">
+                    <div data-aos="fade-up" class="p-4">
+                        <img src="https://tailus.io/sources/blocks/company-site/preview/images/clients/airbnb.svg" class="" alt=""/>
+                    </div>
+                    <div data-aos="fade-up" class="p-4">
+                        <img src="https://tailus.io/sources/blocks/company-site/preview/images/clients/client-8.png" class="w-32 " alt=""/>
+                    </div>
+                    <div data-aos="fade-up" class="p-4">
+                        <img src="https://tailus.io/sources/blocks/company-site/preview/images/clients/client-3.png" class="w-32 " alt=""/>
+                    </div>
+                    <div data-aos="fade-up" class="p-4">
+                        <img src="https://tailus.io/sources/blocks/company-site/preview/images/clients/client-1.png" class="w-32 " alt=""/>
+                    </div>
+                    <div data-aos="fade-up" class="p-4">
+                        <img src="https://tailus.io/sources/blocks/company-site/preview/images/clients/tailus.svg" class="w-32" alt=""/>
+                    </div>
+                    <div data-aos="fade-up" class="p-4">
+                        <img src="https://tailus.io/sources/blocks/company-site/preview/images/clients/microsoft.svg" class="w-32" alt=""/>
+                    </div>
+                    <div data-aos="fade-up" class="p-4">
+                        <img src="https://tailus.io/sources/blocks/company-site/preview/images/clients/coty.svg" class="w-20" alt=""/>
+                    </div>
+                    <div data-aos="fade-up" class="p-4">
+                        <img src="https://tailus.io/sources/blocks/company-site/preview/images/clients/client-4.png" class="w-24" alt=""/>
+                    </div>
+             </div>
+            </div> */}
             <div className='lg:py-44 p-10'>
                 <div data-aos="fade-up" className='text-gray-300 font-medium lg:pb-32 pb-10 lg:text-8xl text-5xl text-white text-center'>
                     <p>WHO AM I?</p>

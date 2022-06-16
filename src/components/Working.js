@@ -54,10 +54,10 @@ function Work() {
                                         </h3>
                                     </div>
                                 </div>
-                                <div data-aos="fade-left" class="mb-8 lg:flex lg:justify-between lg:flex-row-reverse ">
-                                    <div class="order-1 lg:w-5/12"></div>
+                                <div data-aos="fade-left" class="mb-8 flex lg:justify-between">
+                                    <div class="order-1"></div>
                                     <div class="order-1 py-4">
-                                        <p class="mb-3 text-xl lg:text-xl md:text-2xl font-regular text-gray-400"> 2020-2022</p>
+                                        <p class="mb-3 text-xl lg:text-xl md:text-2xl font-regular text-gray-400">2015-2016</p>
                                         <h2 class="mb-3 text-2xl lg:text-xl md:text-4xl font-medium text-white tracking-loose">
                                             Web Design And Development</h2>
                                         <h3 class="mb-3 text-xl lg:text-xl md:text-3xl font-regular text-gray-400">
@@ -65,12 +65,13 @@ function Work() {
                                         </h3>
                                     </div>
                                 </div>
-                                <div data-aos="fade-left" class="mb-8 flex lg:justify-between">
-                                    <div class="order-1"></div>
+                                <div data-aos="fade-left" class="mb-8 lg:flex lg:justify-between lg:flex-row-reverse ">
+                                    <div class="order-1 lg:w-5/12"></div>
                                     <div class="order-1 py-4">
-                                        <p class="mb-3 text-xl lg:text-xl md:text-2xl font-regular text-gray-400">2022-∞</p>
-                                        <h2 class="mb-3 text-2xl lg:text-xl md:text-4xl font-medium text-white tracking-loose">Your Open Position</h2>
-                                        <h3 class="mb-3 text-xl lg:text-xl md:text-3xl font-regular text-gray-400">
+                                        <p class="mb-3 text-xl lg:text-xl md:text-2xl text-gray-400">2013-2014</p>
+                                        <h2 class="mb-3 text-2xl lg:text-xl md:text-4xl font-medium text-white tracking-loose">
+                                            Your Open Position</h2>
+                                        <h3 class="mb-3 text-lg font-light text-gray-200">
                                             Might be you - Anywhere in the world
                                         </h3>
                                     </div>

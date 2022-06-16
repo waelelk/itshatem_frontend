@@ -13,9 +13,9 @@ function Work() {
                 <div class="container lg:flex flex-col items-start md:flex-row ">
                     <div data-aos="fade-up" class="flex flex-col w-full lg:sticky md:top-36 lg:w-2/3">
                         <h2 class="lg:text-xl md:text-4xl font-regular text-gray-200">My Current Position</h2>
-                        <h1 class="text-3xl lg:text-4xl md:text-4xl font-semibold text-white pt-3">Cheif Design Officer</h1>
+                        <h1 class="text-3xl lg:text-4xl md:text-4xl font-semibold text-white pt-3">Web Developer</h1>
                         <h2 class="lg:text-xl md:text-4xl font-regular text-gray-200 pt-3">
-                            Mozaic Gourmet - Kuala Lumpur, Malaysia
+                            Momentum Tutoring - New Zeland
                         </h2>
                     </div>
                     <div class="lg:w-2/3 pt-10 lg:pt-16">
@@ -26,9 +26,9 @@ function Work() {
                                     <div class="order-1 py-4">
                                         <p class="mb-3 text-xl lg:text-xl md:text-2xl text-gray-400">2013-2014</p>
                                         <h2 class="mb-3 text-2xl lg:text-xl md:text-4xl font-medium text-white tracking-loose">
-                                            Shop Owner - Resaler</h2>
+                                            Resaler - Family Business</h2>
                                         <h3 class="mb-3 text-lg font-light text-gray-200">
-                                            Teknok / Benghazi, Libya
+                                            Teknok - Libya
                                         </h3>
                                     </div>
                                 </div>
@@ -39,18 +39,7 @@ function Work() {
                                         <h2 class="mb-3 text-2xl lg:text-xl md:text-4xl font-medium text-white tracking-loose">
                                             Wordpress Developer</h2>
                                         <h3 class="mb-3 text-xl lg:text-xl md:text-3xl font-regular text-gray-400">
-                                            Aca.gov.ly - Benghazi, Libya
-                                        </h3>
-                                    </div>
-                                </div>
-                                <div data-aos="fade-left" class="mb-8 lg:flex lg:justify-between lg:flex-row-reverse ">
-                                    <div class="order-1 lg:w-5/12"></div>
-                                    <div class="order-1 py-4">
-                                        <p class="mb-3 text-xl lg:text-xl md:text-2xl font-regular text-gray-400"> 2018-2019</p>
-                                        <h2 class="mb-3 text-2xl lg:text-xl md:text-4xl font-medium text-white tracking-loose">
-                                            Front-End Developer</h2>
-                                        <h3 class="mb-3 text-xl lg:text-xl md:text-3xl font-regular text-gray-400">
-                                            Mina - Kuala Lumpur, Malaysia
+                                            Aca.gov.ly - Libya
                                         </h3>
                                     </div>
                                 </div>
@@ -69,19 +58,19 @@ function Work() {
                                     <div class="order-1 py-4">
                                         <p class="mb-3 text-xl lg:text-xl md:text-2xl font-regular text-gray-400"> 2020-2022</p>
                                         <h2 class="mb-3 text-2xl lg:text-xl md:text-4xl font-medium text-white tracking-loose">
-                                            Acoustic specialist</h2>
+                                            Web Design And Development</h2>
                                         <h3 class="mb-3 text-xl lg:text-xl md:text-3xl font-regular text-gray-400">
-                                            Wug Accoustics - Selangor, Malaysia
+                                            Freelancing - Worldwide
                                         </h3>
                                     </div>
                                 </div>
                                 <div data-aos="fade-left" class="mb-8 flex lg:justify-between">
                                     <div class="order-1"></div>
                                     <div class="order-1 py-4">
-                                        <p class="mb-3 text-xl lg:text-xl md:text-2xl font-regular text-gray-400">2022-present</p>
-                                        <h2 class="mb-3 text-2xl lg:text-xl md:text-4xl font-medium text-white tracking-loose">Web Developer</h2>
+                                        <p class="mb-3 text-xl lg:text-xl md:text-2xl font-regular text-gray-400">2022-∞</p>
+                                        <h2 class="mb-3 text-2xl lg:text-xl md:text-4xl font-medium text-white tracking-loose">Your Open Position</h2>
                                         <h3 class="mb-3 text-xl lg:text-xl md:text-3xl font-regular text-gray-400">
-                                            Momentum Tutoring - Auckland, New Zeland
+                                            Might be you - Anywhere in the world
                                         </h3>
                                     </div>
                                 </div>

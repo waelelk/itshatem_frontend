@@ -8,6 +8,7 @@ import Blog from './pages/Blog';
 import BlogDetails from './pages/BlogDetails';
 import Footer from './components/Footer';
 import Thanks from "./components/Thanks";
+import Notfound from "./pages/NotFound";
 
 
 function App() {
@@ -45,6 +46,9 @@ function App() {
                 </Route>
                 <Route path="/thanks">
                   <Thanks />
+                </Route>
+                <Route path="*">
+                  <Notfound />
                 </Route>
               </Switch>
             </div>

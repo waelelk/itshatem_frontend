@@ -1,6 +1,5 @@
-import React, {useState, useEffect} from "react";
+import React from "react";
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import PuffLoader from "react-spinners/PuffLoader";
 
 import Nav from './components/Nav'
 import Home from './pages/Home'
@@ -12,25 +11,12 @@ import Notfound from "./pages/NotFound";
 
 
 function App() {
-  const [loading, setLoading] = useState(false);
-  useEffect(() => {
-    setLoading(true)
-    setTimeout(() => {
-      setLoading(false)
-    }, 2000)
-  }, [])
+  
   
   return (
     <div className="App">
       {
-        loading ?
-          <div class="h-screen flex items-center justify-center" >
-            <PuffLoader
-            color={'#FFFFFF'}
-            loading={loading}
-            size={40} /> 
-              </div>       
-          :
+     
           <Router>
             <Nav />
             <div>

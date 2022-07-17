@@ -16,8 +16,8 @@ function Home() {
     }, [])
     return (
         <>
-            <div className="sliding-text-container">
-                <div data-aos="fade-up" className="small-text">
+            <div className="sliding-text-container dark:bg-black">
+                <div data-aos="fade-up" className="small-text dark:text-white">
                     <p className='title-lines'>
                     <span>”</span>
                     C
@@ -48,43 +48,15 @@ function Home() {
                     </p>
                 </div>
             </div>
-            {/* <div class="container m-auto lg:pt-28 px-6 space-y-8 md:px-12">
-                <div class="grid grid-cols-4 sm:grid-cols-3 md:grid-cols-8">
-                    <div data-aos="fade-up" class="p-4">
-                        <img src="https://tailus.io/sources/blocks/company-site/preview/images/clients/airbnb.svg" class="" alt=""/>
-                    </div>
-                    <div data-aos="fade-up" class="p-4">
-                        <img src="https://tailus.io/sources/blocks/company-site/preview/images/clients/client-8.png" class="w-32 " alt=""/>
-                    </div>
-                    <div data-aos="fade-up" class="p-4">
-                        <img src="https://tailus.io/sources/blocks/company-site/preview/images/clients/client-3.png" class="w-32 " alt=""/>
-                    </div>
-                    <div data-aos="fade-up" class="p-4">
-                        <img src="https://tailus.io/sources/blocks/company-site/preview/images/clients/client-1.png" class="w-32 " alt=""/>
-                    </div>
-                    <div data-aos="fade-up" class="p-4">
-                        <img src="https://tailus.io/sources/blocks/company-site/preview/images/clients/tailus.svg" class="w-32" alt=""/>
-                    </div>
-                    <div data-aos="fade-up" class="p-4">
-                        <img src="https://tailus.io/sources/blocks/company-site/preview/images/clients/microsoft.svg" class="w-32" alt=""/>
-                    </div>
-                    <div data-aos="fade-up" class="p-4">
-                        <img src="https://tailus.io/sources/blocks/company-site/preview/images/clients/coty.svg" class="w-20" alt=""/>
-                    </div>
-                    <div data-aos="fade-up" class="p-4">
-                        <img src="https://tailus.io/sources/blocks/company-site/preview/images/clients/client-4.png" class="w-24" alt=""/>
-                    </div>
-             </div>
-            </div> */}
-            <div className='lg:py-44 p-10'>
-                <div data-aos="fade-up" className='text-gray-300 font-medium lg:pb-32 pb-10 lg:text-8xl text-5xl text-white text-center'>
+            <div className=' dark:bg-black lg:py-44 p-10'>
+                <div data-aos="fade-up" className=' font-medium lg:pb-32 pb-10 lg:text-8xl text-5xl text-center dark:text-white'>
                     <p>WHO AM I?</p>
                 </div>  
-                <div data-aos="fade-up" className='lg:px-20 p-0 text-white'>
-                    <p className='text-gray-300 lg:text-6xl text-2xl pb-10'>
+                <div data-aos="fade-up" className='lg:px-20 p-0 '>
+                    <p className='dark:text-white  lg:text-6xl text-2xl pb-10'>
                         HEY I'M HATEM
                      </p>
-                    <p className='lg:text-5xl text-xl leading-loose font-extralight'> 27 years old, graduated from computer science majored in <span className='text-red-200 line-through'> Artificial Intelligence </span>, where I picked up numerous skills. Meanwhile,I entered as a web designer and gradually started doing development as well. I’ve had experiences in using multiple programming languages and frameworks to achieve the goal.</p>
+                    <p className='dark:text-white lg:text-5xl text-xl leading-loose font-extralight'> 27 years old, graduated from computer science majored in <span className='text-red-200 line-through'> Artificial Intelligence </span>, where I picked up numerous skills. Meanwhile,I entered as a web designer and gradually started doing development as well. I’ve had experiences in using multiple programming languages and frameworks to achieve the goal.</p>
                 </div>
             </div>
             <Education />      

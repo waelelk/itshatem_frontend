@@ -9,8 +9,8 @@ function Contact() {
     }, [])
     return (
         <div>
-            <div className="p-10 lg:p-24 md:p-24 md:px-28">
-            <h1 data-aos="fade-up" className="text-white text-3xl lg:text-6xl md:text-4xl mb-6 font-semibold">Contact</h1>
+            <div className="dark:bg-black p-10 lg:p-24 md:p-24 md:px-28">
+            <h1 data-aos="fade-up" className="dark:text-white text-3xl lg:text-6xl md:text-4xl mb-6 font-semibold">Contact</h1>
                 <form data-aos="fade-up" action="https://formsubmit.co/wael.alkezza21@gmail.com" method="POST" className="lg:pr-6 pt-6 text-gray-900 text-3xl space-y-10">
                     <div className="text-white flex flex-col space-x-3">
                         <label className="text-2xl lg:text-4xl md:text-4xl" for="name">Name</label>
@@ -27,7 +27,7 @@ function Contact() {
                     <input type="hidden" name="_captcha" value="false" />
                     <input type="hidden" name="_next" value="https://itshatem.tech/thanks" />
                     <div className="text-right">
-                        <button className="bg-black text-white hover:bg-white text-2xl lg:text-4xl md:text-4xl hover:text-black py-4 px-8">Send</button>
+                        <button className="dark:text-white text-2xl lg:text-4xl md:text-4xl py-4 px-8">Send</button>
                     </div>
                 </form>
 

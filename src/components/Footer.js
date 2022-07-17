@@ -3,7 +3,7 @@ import React from 'react'
 function Footer() {
     return (
         <div>
-            <section className="p-10 lg:p-24">
+            <section className="dark:bg-black p-10 lg:p-24">
                 <div className="max-w-screen-xl mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
                     <div className="flex justify-center mt-8 space-x-6">
                         <a href="https://instagram.com/its.waill" className="text-gray-400 hover:text-gray-500" >

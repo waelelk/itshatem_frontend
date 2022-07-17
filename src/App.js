@@ -12,11 +12,10 @@ import Notfound from "./pages/NotFound";
 
 function App() {
   
-  
+
   return (
     <div className="App">
       {
-     
           <Router>
             <Nav />
             <div>

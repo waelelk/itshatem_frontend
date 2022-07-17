@@ -1,31 +1,35 @@
 import React, {useEffect} from 'react'
 import { Link } from 'react-router-dom'
 
+
 import Aos from "aos"
 import "aos/dist/aos.css"
 
+export default function Nav() {
 
+    const toggleDarkMode = () => document.querySelector('body').classList.toggle('dark');
 
-function Nav() {
-    useEffect(() => {
-        Aos.init({ duration: 1000 });
-    }, [])
     return (
         <>
-        <div>
-            <div data-aos="fade-down" className="sticky flex justify-between mt-10 mx-10">
+        <div className="dark:bg-black sticky top-0 z-50">
+            <div className="sticky flex justify-between p-6">
                 <Link to={`/`} >
-                <img src="/Hatem.png" alt="Logo" className="w-10 h-6 lg:w-16 lg:h-10" />
+                <h1 className="dark:text-white font-bold lg:text-2xl md:text-2xl">
+                            +HATEM
+                        </h1>
                 </Link>
-                <Link to={`/blog`} id="plus" className="cursor-pointer font-bold">
-                <h1 className="text-white text-base lg:text-2xl md:text-2xl">
-                    + INFORMATION  
-                </h1>
-                </Link>
-        </div> 
-        </div> 
+                <div className="grid grid-cols-2 gap-2 content-center">
+                    <button onClick={toggleDarkMode} for="small-toggle" className="pY-3">
+                    <span class="dark:text-white px-3 text-sm font-bold">CHANGE MOOD</span>
+                    </button>
+                    <Link to={`/blog`} id="plus" className="cursor-pointer font-bold ">
+                        <h1 className="dark:text-white text-base lg:text-2xl md:text-2xl">
+                            + INFORMATION
+                        </h1>
+                    </Link>                                  
+                </div> 
+            </div>
+        </div>  
         </>
     )
 }
-
-export default Nav

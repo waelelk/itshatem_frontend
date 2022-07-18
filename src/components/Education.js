@@ -16,11 +16,11 @@ function Education() {
                     <div className="pb-8 md:pt-10 flex-nowrap lg:flex">
                         <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
                             <h2 className="dark:text-white text-2xl lg:text-3xl md:text-2xl font-medium">HIGH-SCHOOL</h2>
-                            <p className="text-xl lg:text-xl md:text-xl font-regular pt-3">2009-2012</p>
+                            <p className="dark:text-white text-xl lg:text-xl md:text-xl font-regular pt-3">2009-2012</p>
                         </div>
                         <div className="md:flex-grow lg:pt-0 md:pt-10">
                             <h2 className="dark:text-white text-xl lg:text-3xl md:text-4xl font-medium">Al-Hadayik-Nomidjiya</h2>
-                            <p className="text-base md:text-xl leading-relaxed pt-5">I have completed the high school diploma in Al-Hadayik-Nomidjiya. I followed science stream back then where I studied basic engineering for three years.</p>
+                            <p className="dark:text-white text-base md:text-xl leading-relaxed pt-5">I have completed the high school diploma in Al-Hadayik-Nomidjiya. I followed science stream back then where I studied basic engineering for three years.</p>
                         </div>
                     </div>
                     <div className="pt-10 flex-nowrap lg:flex">

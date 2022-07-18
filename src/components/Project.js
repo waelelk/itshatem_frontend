@@ -28,7 +28,7 @@ function Project() {
 
     return (
         <section className="dark:bg-black lg:pb-44 p-10 px-10 md:p-24 md:px-28">
-            <h1 data-aos="fade-up" className="text-white text-3xl lg:text-6xl md:text-4xl mb-6 font-semibold">Projects</h1>
+            <h1 data-aos="fade-up" className="dark:text-white text-3xl lg:text-6xl md:text-4xl mb-6 font-semibold">Projects</h1>
             <div className='grid grid-cols-2 lg:grid-cols-3 gap-4'>
                 {data.map(project => (
                 <div data-aos="fade-up" className="container mx-auto">

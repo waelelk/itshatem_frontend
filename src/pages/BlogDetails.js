@@ -25,7 +25,7 @@ function BlogDetails() {
                 <h1 className="dark:text-white text-4xl text-center mb-4 font-semibold font-heading font-semibold">
                     {data.title}
                 </h1>
-                <p className="mb-4 text-white text-center ">
+                <p className="dark:text-white mb-4 text-white text-center ">
                      <span>Publish date: </span>
                     <Moment format="MMM Do YYYY">
                          {data.created_at}

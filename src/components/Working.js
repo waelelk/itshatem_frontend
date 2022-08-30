@@ -41,7 +41,7 @@ function Work() {
                                         <h2 className="dark:text-white mb-3 text-2xl lg:text-xl md:text-4xl font-medium tracking-loose">
                                             Wordpress Developer</h2>
                                         <h3 className="dark:text-white mb-3 text-xl lg:text-xl md:text-3xl font-regular">
-                                            Aca.gov.ly - Libya
+                                            هيئة الرقـابة الإدارية - Libya
                                         </h3>
                                     </div>
                                 </div>
@@ -70,11 +70,11 @@ function Work() {
                                 <div data-aos="fade-left" className="mb-8 lg:flex lg:justify-between lg:flex-row-reverse ">
                                     <div className="order-1 lg:w-5/12"></div>
                                     <div className="order-1 py-4">
-                                        <p className="dark:text-white mb-3 text-xl lg:text-xl md:text-2xl">2022-ထ</p>
+                                        <p className="dark:text-white mb-3 text-xl lg:text-xl md:text-2xl">2022-present</p>
                                         <h2 className="dark:text-white mb-3 text-2xl lg:text-xl md:text-4xl font-mediumtracking-loose">
-                                            Your Open Position</h2>
+                                            Web Developer</h2>
                                         <h3 className="dark:text-white mb-3 text-lg font-light">
-                                            Might be you - Anywhere in the world
+                                            Alpha Impact - singapore / Part Time
                                         </h3>
                                     </div>
                                 </div>

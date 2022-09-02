@@ -24,3 +24,7 @@ body {
   pointer-events: none;
   z-index: 60;
 }
+
+button{
+  cursor: none;
+}

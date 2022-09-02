@@ -44,7 +44,8 @@ function Home() {
                     T
                     <span>H</span>
                     INKE
-                    <span>R.”</span>
+                    <span>R.</span>
+                    <span>”</span>
                     </p>
                 </div>
             </div>
@@ -56,7 +57,7 @@ function Home() {
                     <p className='dark:text-white  lg:text-6xl text-2xl pb-10'>
                         HEY I'M HATEM
                      </p>
-                    <p className='dark:text-white lg:text-5xl text-xl leading-loose font-extralight'> 27 years old, graduated from computer science majored in <span className='text-red-200 line-through'> Artificial Intelligence </span>, where I picked up numerous skills. Meanwhile,I entered as a web designer and gradually started doing development as well. I’ve had experiences in using multiple programming languages and frameworks to achieve the goal.</p>
+                    <p className='dark:text-white lg:text-5xl text-xl leading-loose font-extralight'> 27 years old, graduated from computer science majored in <span className='text-red-500 line-through'> Artificial Intelligence </span>, where I picked up numerous skills. Meanwhile,I entered as a web designer and gradually started doing development as well. I’ve had experiences in using multiple programming languages and frameworks to achieve the goal.</p>
                 </div>
             </div>
             <Education />      

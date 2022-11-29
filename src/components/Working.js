@@ -15,9 +15,9 @@ function Work() {
                 <div className="container lg:flex flex-col items-start md:flex-row ">
                     <div data-aos="fade-up" className="flex flex-col w-full lg:sticky md:top-36 lg:w-2/3">
                         <h2 className="dark:text-white lg:text-xl md:text-4xl font-regular">My Current Position</h2>
-                        <h1 className="dark:text-white text-3xl lg:text-4xl md:text-4xl font-semibold pt-3">Web Developer</h1>
+                        <h1 className="dark:text-white text-3xl lg:text-4xl md:text-4xl font-semibold pt-3">Chief Design Officer</h1>
                         <h2 className="dark:text-white lg:text-xl md:text-4xl font-regular pt-3">
-                            Momentum Tutoring - New Zeland
+                            Mozaic Gourmet - malaysia / Full Time
                         </h2>
                     </div>
                     <div className="lg:w-2/3 pt-10 lg:pt-16">
@@ -72,9 +72,20 @@ function Work() {
                                     <div className="order-1 py-4">
                                         <p className="dark:text-white mb-3 text-xl lg:text-xl md:text-2xl">2022-present</p>
                                         <h2 className="dark:text-white mb-3 text-2xl lg:text-xl md:text-4xl font-mediumtracking-loose">
-                                            Web Developer</h2>
+                                            Chief Design Officer</h2>
                                         <h3 className="dark:text-white mb-3 text-lg font-light">
                                             Alpha Impact - singapore / Part Time
+                                        </h3>
+                                    </div>
+                                </div>
+                                <div data-aos="fade-left" className="mb-8 flex lg:justify-between">
+                                    <div className="order-1"></div>
+                                    <div className="order-1 py-4">
+                                        <p className="dark:text-white mb-3 text-xl lg:text-xl md:text-2xl font-regular">2020-2021</p>
+                                        <h2 className="dark:text-white mb-3 text-2xl lg:text-xl md:text-4xl font-medium tracking-loose">
+                                            Web Developer</h2>
+                                        <h3 className="dark:text-white mb-3 text-xl lg:text-xl md:text-3xl font-regular">
+                                            Momentum Tutoring - Part Time
                                         </h3>
                                     </div>
                                 </div>

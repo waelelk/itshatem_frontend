@@ -29,7 +29,7 @@ function Work() {
                                         <p className="dark:text-white mb-3 text-xl lg:text-xl md:text-2xl">2012-2014</p>
                                         <h2 className="dark:text-white mb-3 text-2xl lg:text-xl md:text-4xl font-medium tracking-loose">
                                             Resaler - Family Business</h2>
-                                        <h3 className="dark:text-white mb-3 text-lg font-light">
+                                        <h3 className="dark:text-white mb-3 text-xl lg:text-xl md:text-3xl font-regular">
                                             Teknok - Libya
                                         </h3>
                                     </div>
@@ -51,7 +51,7 @@ function Work() {
                                         <p className="dark:text-white mb-3 text-xl lg:text-xl md:text-2xl">2019-2020</p>
                                         <h2 className="dark:text-white mb-3 text-2xl lg:text-xl md:text-4xl font-medium tracking-loose">
                                             Content Specialist</h2>
-                                        <h3 className="dark:text-white mb-3 text-lg font-light">
+                                        <h3 className="dark:text-white mb-3 text-xl lg:text-xl md:text-3xl font-regular">
                                             Content Nation - Malaysia
                                         </h3>
                                     </div>
@@ -73,7 +73,7 @@ function Work() {
                                         <p className="dark:text-white mb-3 text-xl lg:text-xl md:text-2xl">2022-2022</p>
                                         <h2 className="dark:text-white mb-3 text-2xl lg:text-xl md:text-4xl font-mediumtracking-loose">
                                             Chief Design Officer</h2>
-                                        <h3 className="dark:text-white mb-3 text-lg font-light">
+                                        <h3 className="dark:text-white mb-3 text-xl lg:text-xl md:text-3xl font-regular">
                                             Alpha Impact - singapore / Part Time
                                         </h3>
                                     </div>

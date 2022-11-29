@@ -70,7 +70,7 @@ function Work() {
                                 <div data-aos="fade-left" className="mb-8 lg:flex lg:justify-between lg:flex-row-reverse ">
                                     <div className="order-1 lg:w-5/12"></div>
                                     <div className="order-1 py-4">
-                                        <p className="dark:text-white mb-3 text-xl lg:text-xl md:text-2xl">2022-present</p>
+                                        <p className="dark:text-white mb-3 text-xl lg:text-xl md:text-2xl">2022-2022</p>
                                         <h2 className="dark:text-white mb-3 text-2xl lg:text-xl md:text-4xl font-mediumtracking-loose">
                                             Chief Design Officer</h2>
                                         <h3 className="dark:text-white mb-3 text-lg font-light">

@@ -16,7 +16,7 @@ export default function Nav() {
                             +HATEM
                         </h1>
                 </Link>
-                <div className="grid grid-cols-2 gap-2 content-center ">
+                <div className="">
                     <button onClick={toggleDarkMode}>
                     <span class="dark:text-white px-3 text-sm font-bold ">CHANGE MODE</span>
                     </button>                                  

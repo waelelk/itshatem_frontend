@@ -17,7 +17,7 @@ function Work() {
                         <h2 className="dark:text-white lg:text-xl md:text-4xl font-regular">My Current Position</h2>
                         <h1 className="dark:text-white text-3xl lg:text-4xl md:text-4xl font-semibold pt-3">Chief Design Officer</h1>
                         <h2 className="dark:text-white lg:text-xl md:text-4xl font-regular pt-3">
-                            Mozaic Gourmet - malaysia / Full Time
+                            Mozaic Gourmet - Malaysia / Full Time
                         </h2>
                     </div>
                     <div className="lg:w-2/3 pt-10 lg:pt-16">

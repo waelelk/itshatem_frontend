@@ -14,7 +14,7 @@ function Blog() {
   const { loading, error, data } = useFetch(
     "https://murmuring-bastion-23285.herokuapp.com/blogs"
   );
-  console.log(data);
+
 
   if (loading)
     return (

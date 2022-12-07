@@ -5,7 +5,6 @@ import "aos/dist/aos.css";
 
 import Education from "../components/Education";
 import Working from "../components/Working";
-import Project from "../components/Project";
 import Contact from "../components/Contact";
 
 import "./Home.css";

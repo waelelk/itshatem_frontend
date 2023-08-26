@@ -20,7 +20,7 @@ function Work() {
               My Current Position
             </h2>
             <h1 className="dark:text-white text-3xl lg:text-4xl md:text-4xl font-semibold pt-3">
-              Chief Design Officer
+              Senior Designer
             </h1>
             <h2 className="dark:text-white lg:text-xl md:text-4xl font-regular pt-3">
               Mozaic Gourmet - Malaysia / Full Time
@@ -107,7 +107,7 @@ function Work() {
                       2022-2022
                     </p>
                     <h2 className="dark:text-white mb-3 text-2xl lg:text-xl md:text-4xl font-medium tracking-loose">
-                      Chief Design Officer
+                      Web Developer
                     </h2>
                     <h3 className="dark:text-white mb-3 text-xl lg:text-xl md:text-3xl font-regular">
                       Alpha Impact - singapore / Part Time
@@ -121,7 +121,7 @@ function Work() {
                   <div className="order-1"></div>
                   <div className="order-1 py-4">
                     <p className="dark:text-white mb-3 text-xl lg:text-xl md:text-2xl font-regular">
-                      2021-present
+                      2021-2023
                     </p>
                     <h2 className="dark:text-white mb-3 text-2xl lg:text-xl md:text-4xl font-medium tracking-loose">
                       Web Developer
